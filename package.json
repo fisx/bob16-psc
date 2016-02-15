@@ -1,0 +1,37 @@
+{
+    "name": "bob16-psc",
+    "version": "0.1.0",
+    "description": "bob16-psc",
+    "readme": "see README.md",
+    "keywords": [
+    ],
+    "license": "AGPL",
+    "author": {
+        "name": "Matthias Fischmann",
+        "email": "matthias@well-typed.com"
+    },
+
+    "homepage": "https://github.com/fisx/bob16-psc",
+    "bugs": {
+        "url": "https://github.com/fisx/bob16-psc/issues",
+        "email": "matthias@well-typed.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/fisx/bob16-psc"
+    },
+
+    "dependencies": {
+        "virtual-dom": "2.1.1"
+    },
+    "devDependencies": {
+        "purescript": "0.7.6",
+        "bower": "1.7.1",
+        "gulp": "3.9.0",
+        "gulp-minify": "0.0.5",
+        "gulp-purescript": "0.8.0",
+        "webpack-stream": "3.1.0",
+        "connect": "*",
+        "serve-static": "*"
+    }
+}

@@ -1,0 +1,8 @@
+*~
+*.swp
+/slides.pdf
+/node_modules/
+/bower_components/
+/dist
+/output
+/static/bob16.js
