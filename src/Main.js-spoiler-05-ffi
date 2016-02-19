@@ -1,0 +1,25 @@
+/* global exports */
+"use strict";
+
+var greetInJs = function(target) {
+    console.log(target);
+    return (function() {});
+};
+
+var loadResource = function(link) {
+    link.content_type = "overwrite";  // write access
+    console.log(link);                // read access
+    return (function() {});
+};
+
+var loadResourceAsync = function(link) {
+    return function(callback) {
+        callback(3)();
+        return (function() {});
+    }
+}
+
+// module Main
+exports.greetInJs = greetInJs;
+exports.loadResource = loadResource;
+exports.loadResourceAsync = loadResourceAsync;
