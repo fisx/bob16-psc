@@ -2,20 +2,23 @@
 "use strict";
 
 var greetInJs = function(target) {
-    console.log(target);
-    return (function() {});
+    return (function() {
+        console.log(target);
+    });
 };
 
 var loadResource = function(link) {
-    link.content_type = "overwrite";  // write access
-    console.log(link);                // read access
-    return (function() {});
+    return (function() {
+        link.content_type = "overwrite";  // write access
+        console.log(link);                // read access
+    });
 };
 
 var loadResourceAsync = function(link) {
     return function(callback) {
-        callback(3)();
-        return (function() {});
+        return (function() {
+            callback(3)();
+        });
     }
 }
 
